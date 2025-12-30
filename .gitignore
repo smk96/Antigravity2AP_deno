@@ -1,0 +1,30 @@
+# 数据目录
+data/
+accounts/
+
+# 环境配置
+.env
+config.json
+
+# Deno 缓存
+.deno/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+logs/
+
+# 临时文件
+tmp/
+temp/
+*.tmp

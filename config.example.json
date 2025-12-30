@@ -1,0 +1,21 @@
+{
+  "host": "0.0.0.0",
+  "port": 8080,
+  "apiKeys": [
+    "sk-your-api-key-1",
+    "sk-your-api-key-2"
+  ],
+  "dataDir": "./data",
+  "authDir": "./data/accounts",
+  "requestTimeout": 300,
+  "maxRetries": 3,
+  "debug": false,
+  "upstreamProxy": {
+    "enabled": false,
+    "url": "http://127.0.0.1:7890"
+  },
+  "remoteManagement": {
+    "enabled": true,
+    "secretKey": "your-management-secret-key"
+  }
+}
